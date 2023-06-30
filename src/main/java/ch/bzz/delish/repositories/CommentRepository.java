@@ -1,6 +1,6 @@
-package ch.bbcag.fourchefs_backend.repositories;
+package ch.bzz.delish.repositories;
 
-import ch.bbcag.fourchefs_backend.models.Comment;
+import ch.bzz.delish.models.Comment;
 import org.springframework.data.repository.CrudRepository;
 
 public interface CommentRepository extends CrudRepository<Comment, Integer> {

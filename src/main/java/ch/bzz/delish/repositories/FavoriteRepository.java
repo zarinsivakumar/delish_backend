@@ -1,8 +1,7 @@
-package ch.bbcag.fourchefs_backend.repositories;
+package ch.bzz.delish.repositories;
 
-import ch.bbcag.fourchefs_backend.models.Favorite;
-import ch.bbcag.fourchefs_backend.models.Ingredient;
-import ch.bbcag.fourchefs_backend.models.Recipe;
+import ch.bzz.delish.models.Favorite;
+import ch.bzz.delish.models.Recipe;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
